@@ -1,0 +1,29 @@
+[
+  {
+    "event_id": "ee1e4990-88c3-4a7f-8427-479d51bd4143",
+    "timestamp": "2026-09-12T10:56:28.401764+00:00",
+    "source": "wan_fault",
+    "device": "R-A1",
+    "rule_or_signature": "WAN Fault: Interface Down",
+    "severity": "high",
+    "description": "INTERFACE DOWN: R-A1 FastEthernet0/1 was up/up in baseline, now down/down"
+  },
+  {
+    "event_id": "dd0d509b-4938-4024-91e6-510a4e8aed61",
+    "timestamp": "2026-09-12T10:56:28.401812+00:00",
+    "source": "wan_fault",
+    "device": "R-A1",
+    "rule_or_signature": "WAN Fault: OSPF Adjacency Lost",
+    "severity": "high",
+    "description": "OSPF ADJACENCY CHANGE: R-A1 Fa0/1 neighbor count was 1/1 in baseline, now 0/0"
+  },
+  {
+    "event_id": "771b0fb9-55b6-4f89-86dd-3be85818ca1d",
+    "timestamp": "2026-09-12T10:56:28.401825+00:00",
+    "source": "wan_fault",
+    "device": "R-B1",
+    "rule_or_signature": "WAN Fault: OSPF Adjacency Lost",
+    "severity": "high",
+    "description": "OSPF ADJACENCY CHANGE: R-B1 Fa0/1 neighbor count was 1/1 in baseline, now 0/0"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:14.156730+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 31318.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:24.800213+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 90216.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:35.462172+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 90412.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:46.147516+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 91392.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:56.830661+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 90090.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:31:07.553160+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 91196.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:31:18.259637+00:00",
+    "metric": "if2_in_octets_delta",
+    "value": 6916.0,
+    "device_median": 308.0,
+    "threshold": 3080.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:14.156730+00:00",
+    "metric": "if3_out_octets_delta",
+    "value": 33729.0,
+    "device_median": 1554.0,
+    "threshold": 15540.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:24.800213+00:00",
+    "metric": "if3_out_octets_delta",
+    "value": 91850.0,
+    "device_median": 1554.0,
+    "threshold": 15540.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:35.462172+00:00",
+    "metric": "if3_out_octets_delta",
+    "value": 91812.0,
+    "device_median": 1554.0,
+    "threshold": 15540.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:46.147516+00:00",
+    "metric": "if3_out_octets_delta",
+    "value": 92634.0,
+    "device_median": 1554.0,
+    "threshold": 15540.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:30:56.830661+00:00",
+    "metric": "if3_out_octets_delta",
+    "value": 91066.0,
+    "device_median": 1554.0,
+    "threshold": 15540.0
+  },
+  {
+    "device": "R-A1",
+    "timestamp": "2026-09-01 00:31:07.553160+00:00",
+    "metric": "if3_out_octets_delta",
+    "value": 92982.0,
+    "device_median": 1554.0,
+    "threshold": 15540.0
+  }
+]

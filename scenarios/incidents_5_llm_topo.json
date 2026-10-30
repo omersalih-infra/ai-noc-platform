@@ -1,0 +1,74 @@
+[
+  {
+    "incident_id": "LLM-INC-001",
+    "alert_count": 3,
+    "sources_involved": [
+      "compliance"
+    ],
+    "devices_involved": [
+      "R-A2"
+    ],
+    "highest_severity": "medium",
+    "time_span": {
+      "start": "2026-09-19T09:00:00+00:00",
+      "end": "2026-09-19T09:00:00+00:00"
+    },
+    "llm_reasoning": "These compliance alerts are from the same device, R-A2, and occur at the same timestamp, indicating a potential configuration issue that needs attention.",
+    "alerts": [
+      {
+        "event_id": "s5-0001",
+        "timestamp": "2026-09-19T09:00:00+00:00",
+        "source": "compliance",
+        "device": "R-A2",
+        "rule_or_signature": "SSH Not Configured",
+        "severity": "medium",
+        "description": "R-A2 does not have SSH configured for remote management"
+      },
+      {
+        "event_id": "s5-0002",
+        "timestamp": "2026-09-19T09:00:00+00:00",
+        "source": "compliance",
+        "device": "R-A2",
+        "rule_or_signature": "Telnet Enabled",
+        "severity": "medium",
+        "description": "R-A2 has Telnet enabled on VTY lines instead of SSH"
+      },
+      {
+        "event_id": "s5-0003",
+        "timestamp": "2026-09-19T09:00:00+00:00",
+        "source": "compliance",
+        "device": "R-A2",
+        "rule_or_signature": "NTP Not Configured",
+        "severity": "low",
+        "description": "R-A2 does not have NTP configured"
+      }
+    ]
+  },
+  {
+    "incident_id": "LLM-INC-002",
+    "alert_count": 1,
+    "sources_involved": [
+      "compliance"
+    ],
+    "devices_involved": [
+      "R-A1"
+    ],
+    "highest_severity": "low",
+    "time_span": {
+      "start": "2026-09-19T09:00:00+00:00",
+      "end": "2026-09-19T09:00:00+00:00"
+    },
+    "llm_reasoning": "This compliance alert is for R-A1 and does not have any related alerts, making it its own incident.",
+    "alerts": [
+      {
+        "event_id": "s5-0004",
+        "timestamp": "2026-09-19T09:00:00+00:00",
+        "source": "compliance",
+        "device": "R-A1",
+        "rule_or_signature": "SSH Configured",
+        "severity": "low",
+        "description": "R-A1 SSH configuration meets policy (PASS)"
+      }
+    ]
+  }
+]

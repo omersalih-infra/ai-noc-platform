@@ -1,0 +1,56 @@
+[
+  {
+    "event_id": "s1-0001",
+    "timestamp": "2026-09-15T14:00:00+00:00",
+    "source": "wan_fault",
+    "device": "R-B1",
+    "rule_or_signature": "WAN Fault: Interface Down",
+    "severity": "high",
+    "description": "INTERFACE DOWN: R-B1 FastEthernet0/1 was up/up in baseline, now down/down"
+  },
+  {
+    "event_id": "s1-0002",
+    "timestamp": "2026-09-15T14:00:05+00:00",
+    "source": "wan_fault",
+    "device": "R-A1",
+    "rule_or_signature": "WAN Fault: OSPF Adjacency Lost",
+    "severity": "high",
+    "description": "OSPF ADJACENCY CHANGE: R-A1 Fa0/1 neighbor count was 1/1 in baseline, now 0/0"
+  },
+  {
+    "event_id": "s1-0003",
+    "timestamp": "2026-09-15T14:00:08+00:00",
+    "source": "wan_fault",
+    "device": "R-B1",
+    "rule_or_signature": "WAN Fault: OSPF Adjacency Lost",
+    "severity": "high",
+    "description": "OSPF ADJACENCY CHANGE: R-B1 Fa0/1 neighbor count was 1/1 in baseline, now 0/0"
+  },
+  {
+    "event_id": "s1-0004",
+    "timestamp": "2026-09-15T14:01:32+00:00",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  },
+  {
+    "event_id": "s1-0005",
+    "timestamp": "2026-09-15T14:01:47+00:00",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  },
+  {
+    "event_id": "s1-0006",
+    "timestamp": "2026-09-15T14:02:50+00:00",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  }
+]

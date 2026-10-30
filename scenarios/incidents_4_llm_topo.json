@@ -1,0 +1,74 @@
+[
+  {
+    "incident_id": "LLM-INC-001",
+    "alert_count": 2,
+    "sources_involved": [
+      "anomaly"
+    ],
+    "devices_involved": [
+      "R-A1"
+    ],
+    "highest_severity": "critical",
+    "time_span": {
+      "start": "2026-09-18T11:20:00+00:00",
+      "end": "2026-09-18T11:20:15+00:00"
+    },
+    "llm_reasoning": "Both alerts from R-A1 are closely timed and indicate significant traffic anomalies, suggesting a potential network issue or attack.",
+    "alerts": [
+      {
+        "event_id": "s4-0001",
+        "timestamp": "2026-09-18T11:20:00+00:00",
+        "source": "anomaly",
+        "device": "R-A1",
+        "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+        "severity": "critical",
+        "description": "R-A1: if2_in_octets_delta = 91200 (baseline median 308, threshold 3080, 29.6x threshold)"
+      },
+      {
+        "event_id": "s4-0002",
+        "timestamp": "2026-09-18T11:20:15+00:00",
+        "source": "anomaly",
+        "device": "R-A1",
+        "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+        "severity": "high",
+        "description": "R-A1: if3_out_octets_delta = 91800 (baseline median 1554, threshold 15540, 5.9x threshold)"
+      }
+    ]
+  },
+  {
+    "incident_id": "LLM-INC-002",
+    "alert_count": 2,
+    "sources_involved": [
+      "intrusion"
+    ],
+    "devices_involved": [
+      "DMZ-Web"
+    ],
+    "highest_severity": "high",
+    "time_span": {
+      "start": "2026-09-18T11:21:40+00:00",
+      "end": "2026-09-18T11:21:55+00:00"
+    },
+    "llm_reasoning": "These two high-severity intrusion detection alerts from DMZ-Web are closely related in timing and content, indicating repeated attempts to scan the web server.",
+    "alerts": [
+      {
+        "event_id": "s4-0003",
+        "timestamp": "2026-09-18T11:21:40+00:00",
+        "source": "intrusion",
+        "device": "DMZ-Web",
+        "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+        "severity": "high",
+        "description": "10.10.1.2 -> 10.20.2.10:80 (Web Application Attack)"
+      },
+      {
+        "event_id": "s4-0004",
+        "timestamp": "2026-09-18T11:21:55+00:00",
+        "source": "intrusion",
+        "device": "DMZ-Web",
+        "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+        "severity": "high",
+        "description": "10.10.1.2 -> 10.20.2.10:80 (Web Application Attack)"
+      }
+    ]
+  }
+]

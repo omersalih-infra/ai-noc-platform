@@ -1,0 +1,119 @@
+[
+  {
+    "event_id": "4467e156-3856-4145-a799-61bb0e2d3eff",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A1",
+    "rule_or_signature": "Password encryption enabled",
+    "severity": "medium",
+    "description": "service password-encryption missing or disabled"
+  },
+  {
+    "event_id": "372ce8b2-ff99-4887-ab2a-6a39e7dec926",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A1",
+    "rule_or_signature": "NTP configured",
+    "severity": "low",
+    "description": "No NTP server configured"
+  },
+  {
+    "event_id": "52ee82a7-35fe-48a8-81f1-4dbf6c270301",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A1",
+    "rule_or_signature": "Syslog host configured",
+    "severity": "medium",
+    "description": "No logging host configured"
+  },
+  {
+    "event_id": "572a0997-7430-41d9-9024-3a08e1c8b233",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A1",
+    "rule_or_signature": "Adequate logging level",
+    "severity": "low",
+    "description": "Logging trap level below informational or unset"
+  },
+  {
+    "event_id": "d9692866-40b8-4e65-bd73-0654623ded10",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A1",
+    "rule_or_signature": "Login banner configured",
+    "severity": "low",
+    "description": "No login/motd banner configured"
+  },
+  {
+    "event_id": "9fffd445-6741-4bbf-94bc-fc65e9b7981f",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "Password encryption enabled",
+    "severity": "medium",
+    "description": "service password-encryption missing or disabled"
+  },
+  {
+    "event_id": "ec3a4abe-22ee-4a70-9842-d46e8a0ff490",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "SSH-only remote access",
+    "severity": "high",
+    "description": "Telnet allowed on VTY lines"
+  },
+  {
+    "event_id": "dd65359f-fbe3-4950-bac8-cdd9937a5305",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "NTP configured",
+    "severity": "low",
+    "description": "No NTP server configured"
+  },
+  {
+    "event_id": "e988c075-4ac0-40fb-8047-a8b354f5f88d",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "Syslog host configured",
+    "severity": "medium",
+    "description": "No logging host configured"
+  },
+  {
+    "event_id": "dd782791-c980-4736-86e5-b3bb0f36c160",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "Adequate logging level",
+    "severity": "low",
+    "description": "Logging trap level below informational or unset"
+  },
+  {
+    "event_id": "d85f76ee-7767-4737-b392-7b10d115c561",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "Login banner configured",
+    "severity": "low",
+    "description": "No login/motd banner configured"
+  },
+  {
+    "event_id": "9446f2f3-2f23-4a74-9135-6063991a45a3",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "Strong local authentication",
+    "severity": "high",
+    "description": "No 'secret' based local user found"
+  },
+  {
+    "event_id": "436b4fbb-1b14-43ed-9c13-c40f4f796ea8",
+    "timestamp": "2026-09-01T16:19:15.832724+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "Domain name configured",
+    "severity": "low",
+    "description": "No domain-name set (required for SSH)"
+  }
+]

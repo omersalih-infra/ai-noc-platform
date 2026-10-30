@@ -1,0 +1,105 @@
+[
+  {
+    "device": "R-A1",
+    "findings": [
+      {
+        "rule": "No default SNMP community",
+        "status": "PASS"
+      },
+      {
+        "rule": "Password encryption enabled",
+        "status": "FAIL",
+        "evidence": "service password-encryption missing or disabled"
+      },
+      {
+        "rule": "SSH-only remote access",
+        "status": "PASS"
+      },
+      {
+        "rule": "NTP configured",
+        "status": "FAIL",
+        "evidence": "No NTP server configured"
+      },
+      {
+        "rule": "Syslog host configured",
+        "status": "FAIL",
+        "evidence": "No logging host configured"
+      },
+      {
+        "rule": "Adequate logging level",
+        "status": "FAIL",
+        "evidence": "Logging trap level below informational or unset"
+      },
+      {
+        "rule": "HTTP server disabled",
+        "status": "PASS"
+      },
+      {
+        "rule": "Login banner configured",
+        "status": "FAIL",
+        "evidence": "No login/motd banner configured"
+      },
+      {
+        "rule": "Strong local authentication",
+        "status": "PASS"
+      },
+      {
+        "rule": "Domain name configured",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "device": "R-A2",
+    "findings": [
+      {
+        "rule": "No default SNMP community",
+        "status": "PASS"
+      },
+      {
+        "rule": "Password encryption enabled",
+        "status": "FAIL",
+        "evidence": "service password-encryption missing or disabled"
+      },
+      {
+        "rule": "SSH-only remote access",
+        "status": "FAIL",
+        "evidence": "Telnet allowed on VTY lines"
+      },
+      {
+        "rule": "NTP configured",
+        "status": "FAIL",
+        "evidence": "No NTP server configured"
+      },
+      {
+        "rule": "Syslog host configured",
+        "status": "FAIL",
+        "evidence": "No logging host configured"
+      },
+      {
+        "rule": "Adequate logging level",
+        "status": "FAIL",
+        "evidence": "Logging trap level below informational or unset"
+      },
+      {
+        "rule": "HTTP server disabled",
+        "status": "PASS"
+      },
+      {
+        "rule": "Login banner configured",
+        "status": "FAIL",
+        "evidence": "No login/motd banner configured"
+      },
+      {
+        "rule": "Strong local authentication",
+        "status": "FAIL",
+        "evidence": "No 'secret' based local user found"
+      },
+      {
+        "rule": "Domain name configured",
+        "status": "FAIL",
+        "evidence": "No domain-name set (required for SSH)"
+      }
+    ]
+  }
+]

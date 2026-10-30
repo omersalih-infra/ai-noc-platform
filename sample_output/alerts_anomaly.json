@@ -1,0 +1,119 @@
+[
+  {
+    "event_id": "a839b4bc-1aa4-4f35-9121-1ddfdcbef41f",
+    "timestamp": "2026-09-01T00:30:14.156730+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "critical",
+    "description": "R-A1: if2_in_octets_delta = 31318 (baseline median 308, threshold 3080, 10.2x threshold)"
+  },
+  {
+    "event_id": "fa95cb4a-34db-43b1-9c87-dbc907071390",
+    "timestamp": "2026-09-01T00:30:24.800213+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "critical",
+    "description": "R-A1: if2_in_octets_delta = 90216 (baseline median 308, threshold 3080, 29.3x threshold)"
+  },
+  {
+    "event_id": "096b7aae-700e-45d4-88ee-dda96ddab164",
+    "timestamp": "2026-09-01T00:30:35.462172+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "critical",
+    "description": "R-A1: if2_in_octets_delta = 90412 (baseline median 308, threshold 3080, 29.4x threshold)"
+  },
+  {
+    "event_id": "f48d907e-6a7d-42fd-907c-88f0b8e26b3b",
+    "timestamp": "2026-09-01T00:30:46.147516+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "critical",
+    "description": "R-A1: if2_in_octets_delta = 91392 (baseline median 308, threshold 3080, 29.7x threshold)"
+  },
+  {
+    "event_id": "2ce37772-7cc0-40c7-a875-baaf91a558a9",
+    "timestamp": "2026-09-01T00:30:56.830661+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "critical",
+    "description": "R-A1: if2_in_octets_delta = 90090 (baseline median 308, threshold 3080, 29.2x threshold)"
+  },
+  {
+    "event_id": "6b4e13eb-4885-459e-895b-9265b1d7e535",
+    "timestamp": "2026-09-01T00:31:07.553160+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "critical",
+    "description": "R-A1: if2_in_octets_delta = 91196 (baseline median 308, threshold 3080, 29.6x threshold)"
+  },
+  {
+    "event_id": "162466be-966a-434e-9baf-257d468f08b5",
+    "timestamp": "2026-09-01T00:31:18.259637+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "medium",
+    "description": "R-A1: if2_in_octets_delta = 6916 (baseline median 308, threshold 3080, 2.2x threshold)"
+  },
+  {
+    "event_id": "4ef879b0-f096-4fdd-8895-b7e02eed5469",
+    "timestamp": "2026-09-01T00:30:14.156730+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "medium",
+    "description": "R-A1: if3_out_octets_delta = 33729 (baseline median 1554, threshold 15540, 2.2x threshold)"
+  },
+  {
+    "event_id": "a535beb6-3c3d-424d-8467-cf482e0b539a",
+    "timestamp": "2026-09-01T00:30:24.800213+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "high",
+    "description": "R-A1: if3_out_octets_delta = 91850 (baseline median 1554, threshold 15540, 5.9x threshold)"
+  },
+  {
+    "event_id": "76949c1a-a5b1-4052-b8d0-f2cce70da43d",
+    "timestamp": "2026-09-01T00:30:35.462172+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "high",
+    "description": "R-A1: if3_out_octets_delta = 91812 (baseline median 1554, threshold 15540, 5.9x threshold)"
+  },
+  {
+    "event_id": "f6fd7956-e97a-490b-9937-afa4f961e9a1",
+    "timestamp": "2026-09-01T00:30:46.147516+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "high",
+    "description": "R-A1: if3_out_octets_delta = 92634 (baseline median 1554, threshold 15540, 6.0x threshold)"
+  },
+  {
+    "event_id": "69d24b99-542f-4a01-869f-cf8637d968a8",
+    "timestamp": "2026-09-01T00:30:56.830661+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "high",
+    "description": "R-A1: if3_out_octets_delta = 91066 (baseline median 1554, threshold 15540, 5.9x threshold)"
+  },
+  {
+    "event_id": "698b6ea2-69bf-4c14-95bd-8b5af6155695",
+    "timestamp": "2026-09-01T00:31:07.553160+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "high",
+    "description": "R-A1: if3_out_octets_delta = 92982 (baseline median 1554, threshold 15540, 6.0x threshold)"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "9650d319-28ea-45e7-82dd-438fc559e66f",
+    "timestamp": "2026-09-09T22:39:53.372486+0200",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  },
+  {
+    "event_id": "fa1a43fb-5245-4c9c-814a-7d44bf6e4c71",
+    "timestamp": "2026-09-09T22:39:53.372486+0200",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  },
+  {
+    "event_id": "ee92f40f-4f4e-46bf-8143-e3840bd02ecc",
+    "timestamp": "2026-09-09T22:39:53.420475+0200",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  },
+  {
+    "event_id": "a9d8d7d5-75aa-4bfd-ae06-41bd8aa13a9c",
+    "timestamp": "2026-09-09T22:39:53.444076+0200",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "high",
+    "description": "10.99.99.100 -> 10.20.2.10:80 (Web Application Attack)"
+  }
+]

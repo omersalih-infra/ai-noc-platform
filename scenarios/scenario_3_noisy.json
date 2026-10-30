@@ -1,0 +1,47 @@
+[
+  {
+    "event_id": "s3-0001",
+    "timestamp": "2026-09-17T08:12:00+00:00",
+    "source": "anomaly",
+    "device": "R-A1",
+    "rule_or_signature": "SNMP Threshold Anomaly (if2_in_octets_delta)",
+    "severity": "medium",
+    "description": "R-A1: if2_in_octets_delta = 6800 (baseline median 308, threshold 3080, 2.2x threshold)"
+  },
+  {
+    "event_id": "s3-0002",
+    "timestamp": "2026-09-17T10:03:00+00:00",
+    "source": "compliance",
+    "device": "R-A2",
+    "rule_or_signature": "SSH Not Configured",
+    "severity": "medium",
+    "description": "R-A2 does not have SSH configured for remote management"
+  },
+  {
+    "event_id": "s3-0003",
+    "timestamp": "2026-09-17T13:29:00+00:00",
+    "source": "anomaly",
+    "device": "R-A2",
+    "rule_or_signature": "SNMP Threshold Anomaly (if3_out_octets_delta)",
+    "severity": "medium",
+    "description": "R-A2: if3_out_octets_delta = 3400 (baseline median 1554, threshold 15400, 0.22x threshold)"
+  },
+  {
+    "event_id": "s3-0004",
+    "timestamp": "2026-09-17T17:44:00+00:00",
+    "source": "intrusion",
+    "device": "DMZ-Web",
+    "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+    "severity": "medium",
+    "description": "198.51.100.20 -> 10.20.2.10:80 (single isolated probe, no follow-up traffic)"
+  },
+  {
+    "event_id": "s3-0005",
+    "timestamp": "2026-09-17T21:58:00+00:00",
+    "source": "compliance",
+    "device": "R-A1",
+    "rule_or_signature": "NTP Not Configured",
+    "severity": "low",
+    "description": "R-A1 does not have NTP configured"
+  }
+]

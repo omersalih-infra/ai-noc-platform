@@ -1,0 +1,72 @@
+[
+  {
+    "incident_id": "INC-001",
+    "alert_count": 2,
+    "sources_involved": [
+      "wan_fault"
+    ],
+    "devices_involved": [
+      "R-B1"
+    ],
+    "highest_severity": "high",
+    "time_span": {
+      "start": "2026-09-16T09:00:00+00:00",
+      "end": "2026-09-16T09:00:10+00:00"
+    },
+    "alerts": [
+      {
+        "event_id": "s2-0001",
+        "timestamp": "2026-09-16T09:00:00+00:00",
+        "source": "wan_fault",
+        "device": "R-B1",
+        "rule_or_signature": "WAN Fault: Interface Down",
+        "severity": "high",
+        "description": "INTERFACE DOWN: R-B1 FastEthernet0/1 was up/up in baseline, now down/down"
+      },
+      {
+        "event_id": "s2-0002",
+        "timestamp": "2026-09-16T09:00:10+00:00",
+        "source": "wan_fault",
+        "device": "R-B1",
+        "rule_or_signature": "WAN Fault: OSPF Adjacency Lost",
+        "severity": "high",
+        "description": "OSPF ADJACENCY CHANGE: R-B1 Fa0/1 neighbor count was 1/1 in baseline, now 0/0"
+      }
+    ]
+  },
+  {
+    "incident_id": "INC-002",
+    "alert_count": 2,
+    "sources_involved": [
+      "intrusion"
+    ],
+    "devices_involved": [
+      "DMZ-Web"
+    ],
+    "highest_severity": "high",
+    "time_span": {
+      "start": "2026-09-16T15:47:00+00:00",
+      "end": "2026-09-16T15:47:12+00:00"
+    },
+    "alerts": [
+      {
+        "event_id": "s2-0003",
+        "timestamp": "2026-09-16T15:47:00+00:00",
+        "source": "intrusion",
+        "device": "DMZ-Web",
+        "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+        "severity": "high",
+        "description": "203.0.113.55 -> 10.20.2.10:80 (Web Application Attack)"
+      },
+      {
+        "event_id": "s2-0004",
+        "timestamp": "2026-09-16T15:47:12+00:00",
+        "source": "intrusion",
+        "device": "DMZ-Web",
+        "rule_or_signature": "ET SCAN Possible Nmap User-Agent Observed",
+        "severity": "high",
+        "description": "203.0.113.55 -> 10.20.2.10:80 (Web Application Attack)"
+      }
+    ]
+  }
+]
